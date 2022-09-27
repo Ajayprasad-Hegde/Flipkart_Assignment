@@ -40,9 +40,6 @@ public class FlipkartScenario_2_Test
 				+ "/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]"
 				+ "/div[1]/section[7]/div[2]/div[1]/div[2]/div[1]/label[1]/div[2]")).click();
 		
-		List<WebElement> list = driver.findElements(By.xpath("/html[1]/body[1]/div[1]/div[1]/div[3]/div[1]/div[2]/div"
-				+ "/div[1]/div[1]/div[1]/a[1]/div[2]/div[1]/div[1]"));
-		
 			int n = Integer.parseInt(driver.findElement(By.xpath("//body/div[@id='container']/div[1]"
 					+ "/div[3]/div[1]/div[2]/div[1]/div[1]/div[1]/span[1]")).getText().substring(12, 14)); 
 		
