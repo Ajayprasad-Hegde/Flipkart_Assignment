@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="FlipkartScenario_2_Test">
+      <class name="flipcart_Scenarios.FlipkartScenario_1_Test">
         <methods>
-          <include name="flipKartTest_2"/>
+          <include name="flipKartTest"/>
         </methods>
-      </class> <!-- FlipkartScenario_2_Test -->
+      </class> <!-- flipcart_Scenarios.FlipkartScenario_1_Test -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

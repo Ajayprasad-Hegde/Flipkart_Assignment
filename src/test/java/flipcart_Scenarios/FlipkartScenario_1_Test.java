@@ -28,10 +28,12 @@ public void flipKartTest() throws InterruptedException, AWTException
 	
 	
 	// Pressing Escape
-	Robot robot = new Robot();
-	robot.keyPress(KeyEvent.VK_ESCAPE); 
-	robot.keyRelease(KeyEvent.VK_ESCAPE);
-	 
+	/*
+	 * Robot robot = new Robot(); robot.keyPress(KeyEvent.VK_ESCAPE);
+	 * robot.keyRelease(KeyEvent.VK_ESCAPE);
+	 */
+ 
+	driver.findElement(By.xpath("//button[@class='_2KpZ6l _2doB4z']")).click();
 	
 	driver.findElement(By.xpath("//input[@title='Search "
 			+ "for products, brands and more']")).sendKeys("winter heater");
